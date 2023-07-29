@@ -6,26 +6,36 @@
     <title>table</title>
 </head>
 <body>
-    <table border="100">
-        <tr>
-            <td><h2>name</h2></td>
-            <td>last name</td>
-            <td>age</td>
-            <td>marks</td>
-        </tr>
-        <tr>
-            <td><a href="https://www.google.com">boushra</a></td>
-            <td>tarabishi</td>
-            <td>20</td>
-            <td>100</td>
-        </tr>
-        <tr>
-            <td><a href="image/depositphotos_36220949-stock-photo-beautiful-landscape.jpg">dania</a></td>
-            <td>taleb agha</td>
-            <td>45</td>
-            <td><img width="100" src="image/depositphotos_36220949-stock-photo-beautiful-landscape.jpg" ></td>
-        </tr>
-
+    <table border="1">
+        <thead>
+           <tr>
+                <td><h2>name</h2></td>
+                <th>last name</th>
+                <th>age</th>
+                <td>marks</td>
+           </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="https://www.google.com">boushra</a></td>
+                <td>tarabishi</td>
+                <td>20</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td><a href="image/depositphotos_36220949-stock-photo-beautiful-landscape.jpg">dania</a></td>
+                <td>taleb agha</td>
+                <td>45</td>
+                <td><img width="100" src="image/depositphotos_36220949-stock-photo-beautiful-landscape.jpg" ></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">average</td>
+                <td colspan="2">95</td>
+                <td rowspan="4">the marks</td>
+            </tr>
+        </tfoot>
     </table>
 </body>
 </html>
