@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>forms</title>
     <link rel="shortcut icon" href="image/download.jpeg" type="image/x-icon">
-    <link rel="stylesheet" href="css/style1.css">
 </head>
 <body>
     <form action="###" method="get">
@@ -14,8 +13,7 @@
         password: <input type="password" name="mypass " id="11"><br>
         gender: <input type="radio" name="gender" id="2"><label for="2">female</label><br>
         gender: <input type="radio" name="gender" id="3"><label for="3">male</label><br>
-        <input type="submit" value="send"><br>
-        <btbt>unkown tag</btbt>
+        <input type="submit" value="send">
     </form>
 </body>
 </html>
