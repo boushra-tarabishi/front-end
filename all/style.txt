@@ -3,7 +3,7 @@ h1{font-size:medium ;}
 div{padding: 40px;background-color: bisque; border: 20 solid #000000; border-radius: 10;}
 p{font-size: xx-large;}
 input{color: yellowgreen !important ;background-color: rgb(184, 164, 164);}
-div.test1{background-color: antiquewhite;}
-div#test2{background-color: aliceblue;}
-.test3{width: 50%;background-color: cadetblue;}
+.newclass{background-color: antiquewhite;}
+#nclass{background-color: aliceblue;}
+.table{width: 50%;background-color: cadetblue;}
 btbt{background-color: blueviolet;}

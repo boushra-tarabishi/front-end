@@ -6,6 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>first web page</title>
+    <link rel="stylesheet" href="css/style1.css">
+    <style>
+        p{
+            color: aquamarine;
+        }
+    </style>
 </head>
 
 <body bgcolor="pink">
@@ -24,7 +30,7 @@
 
     <a href="image/depositphotos_36220949-stock-photo-beautiful-landscape.jpg">bird image</a><br>
     <a href="https://google.com" target="_blank">google new tab</a><br>
-    <p>click on the photo to open google</p>
+    <p style="color: blue;">click on the photo to open google</p>
     <a href="https://google.com"><img width="200" src="image/depositphotos_36220949-stock-photo-beautiful-landscape.jpg" ></a>
     <p>click here to download the photo</p>
     <a href="image/depositphotos_36220949-stock-photo-beautiful-landscape.jpg" download>click here</a>
