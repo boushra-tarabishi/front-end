@@ -1,0 +1,15 @@
+div p strong{color: red;}
+div>p{color: green;}
+div ul li{color: red;}
+.first #third{color: pink;}
+.first>.second>#fourth{color: purple;}
+.first+.c1{color: rgb(9, 194, 194);}
+.first~.c2{background-color: rgb(218, 175, 175);}
+.c2:hover{background-color: bisque;}
+#check:checked{background-color: aquamarine;}
+.sub{display: none;}
+.menu>p:hover+.sub{display: block;}
+.c2::after{content: " welcome";}
+.c3::before{content: "welcome ";}
+.c1::first-letter{color: blue;}
+#fourth::selection{background-color: rgb(183, 161, 165);}
