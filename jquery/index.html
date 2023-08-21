@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jqury</title>
+    <script src="/vendors/jquery.js"></script>
+</head>
+
+<body>
+    <h1>welcome</h1>
+    <h2>toggler</h2>
+    <p id="text">if you click on the hide button i will disappear</p>
+    <button id="hide" class="hi">hide</button>
+    <button id="show">show</button>
+    <button id="toggle">toggle</button>
+    <br>
+    <script>
+        $(".hi").click(function() {
+            $("#text").hide(1000);
+            $("h1").hide(3000, function() {
+                $("h1").show(2000);
+            });
+            $(this).hide(500);
+        });
+        $("#show").dblclick(function() {
+            $("#text").show(1000);
+        });
+        $("#toggle").hover(function() {
+            $("h2").toggle(1000);
+        });
+    </script>
+    <button id="start">start animation</button>
+    <div style="background-color: aquamarine;height: 100px;width: 100px;position: absolute;">hi</div>
+    <script>
+        $(document).ready(function() {
+            $("#start").click(function() {
+                var div = $("[style]");
+                div.animate({
+                    height: '300px',
+                    opacity: '0.4'
+                }, "slow ");
+                div.animate({
+                    width: '300px',
+                    opacity: '0.8'
+                }, "slow");
+                div.animate({
+                    height: '100px',
+                    opacity: '0.4'
+                }, "slow");
+                div.animate({
+                    width: '100px',
+                    opacity: '0.8'
+                }, "slow");
+            });
+        });
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div>
+        <h1>this is a head 1</h1>
+        <p>this is paragraph</p>
+        <input type="text" value="boushra">
+    </div>
+    <button id="click">click me</button>
+    <script>
+        $(document).ready(function() {
+            $("#click").click(function() {
+                alert($("[type]").val());
+            });
+        });
+    </script>
+</body>
+
+</html>
